@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDC - Tienda de Juegos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2 class="logo">TDC</h2>
+        <nav class="navigation"> 
+            <a href="#">Contáctanos</a>
+            <a href="#">Nuestras Redes</a>
+            <button class="mi-gomita">Ingresar</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo-seccion">El juego que busques, seguramente lo tenemos</h2>
+
+        <div class="contenedor-logos">
+            <div class="tarjeta-juego">
+                <img src="imagen.png/steam.webp" class="foto-general" alt="Steam">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/Hollow Knight_ Silksong - Release Trailer.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="tarjeta-juego">
+                <img src="imagen.png/EPIC.jpg" class="foto-general" alt="Steam">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/Evento en vivo del final del capítulo 6 _ Tráiler de avance.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="tarjeta-juego">
+                <img src="imagen.png/Atari_Official_2012_Logo.svg.png" class="foto-general" alt="Steam">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/E.T. Atari 2600 Play Through.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="tarjeta-juego">
+                <img src="imagen.png/play.avif" class="foto-general" alt="PlayStation">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/God of War Sons of Sparta - Reveal Trailer _ PS5 Games.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="tarjeta-juego">
+                <img src="imagen.png/xbox.jpg" class="foto-general" alt="Xbox">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/Halo_ Campaign Evolved - Official Reveal Trailer.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="tarjeta-juego">
+                <img src="imagen.png/Logo_Nintendo_2017.webp" class="foto-general" alt="Nintendo">
+                <video autoplay muted loop playsinline class="video-fondo">
+                    <source src="Videos/Super Mario Galaxy HD - Official Nintendo Switch Trailer (Fan Made).mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </main>
+
+<footer class="header1">
+    <h2>Regístrate con nosotros</h2>
+    <form action="gracias.html" method="GET">
+       <div class="grupo-inputs">
+    <input type="text" name="nombre" placeholder="Cual es tu nombre" required>
+    <input type="text" name="correo" placeholder="Cual es tu correo" required>
+    <input type="text" name="celular" placeholder="Tu numero de celular" required>
+    
+    <div class="contenedor-radio">
+        <p>¿Tipo de juego favorito?</p>
+        <label><input type="radio" name="juego-fav" value="accion" required> Acción</label>
+        <label><input type="radio" name="juego-fav" value="rpg"> RPG</label>
+        <label><input type="radio" name="juego-fav" value="deportes"> Deportes</label>
+    </div>
+</div>
+        <button type="submit" class="mi-gomita botoon">Click</button>
+    </form>
+</footer>
+
+</body>
+</html>

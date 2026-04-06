@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagen.png/prueva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+}
+.titulo-seccion {
+    margin: 40px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.contenedor-logos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tarjeta-juego {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 25px;
+    width: 280px;
+    transition: transform 0.3s;
+}
+.tarjeta-juego:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 0, 0, 0.8);
+}
+.foto-general, .video-fondo {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.header1 {
+    background: rgb(0, 0, 0);
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+.grupo-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+input[type="text"] {
+    width: 280px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid #921414;
+    font-size: 16px;
+}
+.mi-gomita {
+    background-color: #7c2121;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.botoon{
+    padding: 15px 50px;
+    font-size: 18px;
+}
+.contenedor-radio {
+    width: 100%; /* Ocupa el ancho para centrar las opciones */
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-radio p {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contenedor-radio label {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Opcional: para que el circulito resalte un poco más */
+input[type="radio"] {
+    accent-color: #921414; 
+    transform: scale(1.2);
+    margin-right: 5px;
+}
